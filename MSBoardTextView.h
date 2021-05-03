@@ -1,13 +1,10 @@
 #pragma once
 #include "Minesweeper_Board.h"
 
-
-
 class MSBoardTextView
 {
-	MinesweeperBoard &board;
+	MinesweeperBoard& board;
 public:
-	 MSBoardTextView(MinesweeperBoard & board);
+	MSBoardTextView(MinesweeperBoard& board);
 	void display();
 };
-

@@ -7,7 +7,5 @@ class MSTextController
 	MinesweeperBoard& board;
 public:
 	MSTextController(MinesweeperBoard& board, MSBoardTextView& view);
-		void play();
+	void play();
 };
-
-
