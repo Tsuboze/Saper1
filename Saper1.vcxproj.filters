@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Saper1.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Minesweeper_Board.cpp">
@@ -25,6 +25,12 @@
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="MSTextController.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MSSFMLView.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseController.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,5 +44,57 @@
     <ClInclude Include="MSTextController.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="MSSFMLView.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseController.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\1.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\2.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\3.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\4.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\5.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\6.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\7.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\8.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\blank.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\mine.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\explode.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\flag.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="textures\square.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="textures\arial.ttf">
+      <Filter>Pliki zasobów</Filter>
+    </Font>
   </ItemGroup>
 </Project>

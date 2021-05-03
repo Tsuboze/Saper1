@@ -88,10 +88,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\torrent\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\torrent\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,12 +105,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\torrent\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\torrent\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -140,14 +146,36 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Minesweeper_Board.cpp" />
+    <ClCompile Include="MouseController.cpp" />
     <ClCompile Include="MSBoardTextView.cpp" />
+    <ClCompile Include="MSSFMLView.cpp" />
     <ClCompile Include="MSTextController.cpp" />
-    <ClCompile Include="Saper1.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Minesweeper_Board.h" />
+    <ClInclude Include="MouseController.h" />
     <ClInclude Include="MSBoardTextView.h" />
+    <ClInclude Include="MSSFMLView.h" />
     <ClInclude Include="MSTextController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\1.png" />
+    <Image Include="textures\2.png" />
+    <Image Include="textures\3.png" />
+    <Image Include="textures\4.png" />
+    <Image Include="textures\5.png" />
+    <Image Include="textures\6.png" />
+    <Image Include="textures\7.png" />
+    <Image Include="textures\8.png" />
+    <Image Include="textures\blank.png" />
+    <Image Include="textures\mine.png" />
+    <Image Include="textures\explode.png" />
+    <Image Include="textures\flag.png" />
+    <Image Include="textures\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="textures\arial.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
