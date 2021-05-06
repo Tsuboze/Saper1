@@ -6,8 +6,8 @@ MSSFMLView::MSSFMLView(MinesweeperBoard& b) :board(b)
 {
 	height = board.getBoardHeight();
 	width = board.getBoardWidth();
-	window_height = 32 * height;
-	window_width = 32 * width;
+	window_height = 40 * height;
+	window_width = 40 * width;
 
 	if (!font.loadFromFile("textures/arial.ttf"))
 	{
